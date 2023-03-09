@@ -15,3 +15,28 @@ font-family: 'Montserrat', sans-serif; */
                 url(images/bg.jpg) center no-repeat;
     background-size: cover;
 }
+
+.banner-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.banner-text p {
+    color: #eee;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: right;
+}
