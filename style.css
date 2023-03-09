@@ -40,3 +40,40 @@ font-family: 'Montserrat', sans-serif; */
     letter-spacing: 1px;
     text-align: right;
 }
+
+.btns {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+
+.btn {
+    width: 170px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    outline: none;
+    border: 2px solid tomato;
+    cursor: pointer;
+    transition: transform 0.3s;  
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.login-btn {
+    background-color: tomato;
+}
+
+.signup-btn {
+    background-color: transparent;
+}
