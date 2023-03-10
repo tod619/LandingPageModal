@@ -92,6 +92,11 @@ font-family: 'Montserrat', sans-serif; */
     visibility: hidden;
 }
 
+.display {
+    opacity: 1;
+    visibility: visible;
+}
+
 .x-btn {
     position: absolute;
     right: 20px;
