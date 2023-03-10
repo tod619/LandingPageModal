@@ -8,20 +8,20 @@ const formContainer = document.querySelector('.form-container')
 
 signupBtn.addEventListener('click', () => {
     signupModal.classList.add('display')
-    formContainer.classList.add('display')
+    formContainer.classList.add('disable')
 })
 
 signupXBtn.addEventListener('click', () => {
     signupModal.classList.remove('display')
-    formContainer.classList.remove('display')
+    formContainer.classList.remove('disable')
 })
 
 loginBtn.addEventListener('click', () => {
     loginModal.classList.add('display')
-    formContainer.classList.add('display')
+    formContainer.classList.add('disable')
 })
 
 loginXbtn.addEventListener('click', () => {
     loginModal.classList.remove('display')
-    formContainer.classList.remove('display')
+    formContainer.classList.remove('disable')
 })

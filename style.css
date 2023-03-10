@@ -87,7 +87,13 @@ font-family: 'Montserrat', sans-serif; */
     right: 0;
     opacity: 0;
     visibility: hidden;
+    transition: all 0.5s;
 
+}
+
+.disable {
+    opacity: 1;
+    visibility: visible;
 }
 
 .modal {
@@ -102,6 +108,7 @@ font-family: 'Montserrat', sans-serif; */
     border-radius: 20px;
     opacity: 0;
     visibility: hidden;
+    transition: all 0.5s;
 }
 
 .display {
